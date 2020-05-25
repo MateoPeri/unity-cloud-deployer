@@ -91,7 +91,7 @@ Click new intergration, and select Webhook as the integration type. Then select 
 Set the display name to whatever you want. The Webhook URL is the url the webhook will POST to. We set this in the [server set up section](#How-to-set-up-the-server), and by default is ```http(s)://[your server]/api/GameBuild```.
 
 If you have set up autorization for your API, fill in the key in the Authorization Secret field.
-The content type should be set to ´´´application/json´´´. The 'Disable SSL/TLS Verification' checkbox is only for servers that only have HTTP (no HTTPS).
+The content type should be set to ```application/json```. The 'Disable SSL/TLS Verification' checkbox is only for servers that only have HTTP (no HTTPS).
 
 ## Used packages
 - [Json.NET](https://www.newtonsoft.com/json)
