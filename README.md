@@ -78,7 +78,7 @@ The script parses the JSON for the download link, downloads and unzips the file 
 There is also a logging functionality for debug purposes.
 
 ## How to set up the server
-Clone this repository.
+Download and unzip a file from [the releases page](https://github.com/MateoPeri/unity-cloud-deployer/releases). You can alternatively compile it yourself using the source code provided.
 ### IIS
 (IIS instructions)
 
