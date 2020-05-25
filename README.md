@@ -84,6 +84,7 @@ Clone this repository.
 
 ## Unity Cloud Dashboard Configuration
 On the [Cloud Dashboard](https://developer.cloud.unity3d.com/) select a project, go to settings, then integrations.
+
 ![Image](img/unity_config_01.PNG)
 
 Click new intergration, and select Webhook as the integration type. Then select the services that will trigger that event. In my case, just Build Success, as I only want to upload a build if all has gone well.
