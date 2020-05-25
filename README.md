@@ -78,9 +78,10 @@ The script parses the JSON for the download link, downloads and unzips the file 
 There is also a logging functionality for debug purposes.
 
 ## How to set up the server
-Download and unzip a file from [the releases page](https://github.com/MateoPeri/unity-cloud-deployer/releases). You can alternatively compile it yourself using the source code provided.
+For now, there are only instructions for setting it up on IIS, as I don't know how to do it on other environments. I could use some help on that.
 ### IIS
-(IIS instructions)
+Download and unzip a file from [the releases page](https://github.com/MateoPeri/unity-cloud-deployer/releases). You can alternatively compile it yourself using the source code provided.
+On the IIS Manager, create a new site (or a subsite ?, if you implement it on an already running website). Then,
 
 ## Unity Cloud Dashboard Configuration
 On the [Cloud Dashboard](https://developer.cloud.unity3d.com/) select a project, go to settings, then integrations.
