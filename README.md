@@ -78,6 +78,7 @@ The script parses the JSON for the download link, downloads and unzips the file 
 There is also a logging functionality for debug purposes.
 
 ## How to set up the server
+Clone this repository.
 ### IIS
 (IIS instructions)
 
@@ -91,6 +92,9 @@ Set the display name to whatever you want. The Webhook URL is the url the webhoo
 If you have set up autorization for your API, fill in the key in the Authorization Secret field.
 The content type should be set to ´´´application/json´´´. The 'Disable SSL/TLS Verification' checkbox is only for servers that only have HTTP (no HTTPS).
 
+## Used packages
+- [Json.NET](https://www.newtonsoft.com/json)
+- [Microsoft ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis)
 
 ## Debug
 You can use programs like Postman to test and debug your API. Also, the tool has a log function that saves all steps of the process in a text file.
