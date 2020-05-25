@@ -2,7 +2,7 @@
 Tool to automatically deploy your WebGL games from UnityCloud to your ASP.NET server.
 
 ## How it works
-THis tool is intended to be used along with Unity Cloud Builder, wich can be set to fire an action when a build is completed successfully. That action (webhook) is a POST request, sending a JSON that looks like this:
+This tool is intended to be used along with Unity Cloud Builder, wich can be set to fire an action when a build is completed successfully. That action (webhook) is a POST request, sending a JSON that looks like this:
 ```json
 {
   "buildNumber": {BUILD_NUMBER},
@@ -82,7 +82,7 @@ There is also a logging functionality for debug purposes.
 (IIS instructions)
 
 ## Unity Cloud Dashboard Configuration
-On the Cloud Dashboard select a project, go to settings, then integrations.
+On the [Cloud Dashboard](https://developer.cloud.unity3d.com/) select a project, go to settings, then integrations.
 ![Image](img/unity_config_01.PNG)
 
 Click new intergration, and select Webhook as the integration type. Then select the services that will trigger that event. In my case, just Build Success, as I only want to upload a build if all has gone well.
@@ -90,3 +90,7 @@ Set the display name to whatever you want. The Webhook URL is the url the webhoo
 
 If you have set up autorization for your API, fill in the key in the Authorization Secret field.
 The content type should be set to ´´´application/json´´´. The 'Disable SSL/TLS Verification' checkbox is only for servers that only have HTTP (no HTTPS).
+
+
+## Debug
+You can use programs like Postman to test and debug your API. Also, the tool has a log function that saves all steps of the process in a text file.
