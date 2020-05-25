@@ -82,4 +82,4 @@ There is also a logging functionality for debug purposes.
 (IIS instructions)
 
 ## Unity Cloud Dashboard Configuration
-![Image]()
+![Image](img/unity_config_01.PNG)
