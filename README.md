@@ -2,7 +2,7 @@
 Tool to automatically deploy your WebGL games from UnityCloud to your ASP.NET server.
 
 ## How it works
-It is intended to be used along with Unity Cloud Builder, wich can be set to fire an action on builds success. The webhook is something like this:
+THis tool is intended to be used along with Unity Cloud Builder, wich can be set to fire an action when a build is completed successfully. That action (webhook) is a POST request, sending a JSON that looks like this:
 ```json
 {
   "buildNumber": {BUILD_NUMBER},
@@ -77,6 +77,9 @@ It is intended to be used along with Unity Cloud Builder, wich can be set to fir
 The script parses the JSON for the download link, downloads and unzips the file and cleans up afterwards.
 There is also a logging functionality for debug purposes.
 
-## How to install
+## How to set up the server
 ### IIS
 (IIS instructions)
+
+## Unity Cloud Dashboard Configuration
+![Image]()
