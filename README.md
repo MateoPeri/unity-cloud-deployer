@@ -81,7 +81,7 @@ There is also a logging functionality for debug purposes.
 For now, there are only instructions for setting it up on IIS, as I don't know how to do it on other environments. I could use some help on that.
 ### IIS
 Download and unzip a file from [the releases page](https://github.com/MateoPeri/unity-cloud-deployer/releases). You can alternatively compile it yourself using the source code provided.
-On the IIS Manager, create a new site (or a subsite ?, if you implement it on an already running website). Then,
+On the IIS Manager, create a new site (or a subsite ?, if you want to implement it on an already running website). Then, copy the unzipped folder's contents to the site directory.
 
 ## Unity Cloud Dashboard Configuration
 On the [Cloud Dashboard](https://developer.cloud.unity3d.com/) select a project, go to settings, then integrations.
